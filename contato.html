@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contato | SC Tour</title>
+  <meta name="description" content="Solicite seu orçamento de transporte executivo em Florianópolis. Fale por WhatsApp, e-mail ou preencha o formulário." />
+  <link rel="canonical" href="https://www.sctour.online/contato.html" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-content">
+      <a class="logo" href="/"><span>SC</span> Tour</a>
+      <nav class="nav" aria-label="Principal">
+        <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu">☰</button>
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="/">Início</a></li>
+          <li><a href="servicos.html">Serviços</a></li>
+          <li><a href="frota.html">Frota</a></li>
+          <li><a href="sobre.html">Sobre Nós</a></li>
+          <li><a class="active btn btn-primary" href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero small">
+      <div class="container">
+        <h1>Contato</h1>
+        <p>Solicite seu orçamento ou tire suas dúvidas.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container contact-grid">
+        <div>
+          <h2>Formulário</h2>
+          <form id="contactForm" class="form">
+            <div class="form-row">
+              <label for="name">Nome</label>
+              <input id="name" name="name" type="text" placeholder="Seu nome" required />
+            </div>
+            <div class="form-row">
+              <label for="email">E-mail</label>
+              <input id="email" name="email" type="email" placeholder="seu@email.com" required />
+            </div>
+            <div class="form-row">
+              <label for="phone">Telefone</label>
+              <input id="phone" name="phone" type="tel" placeholder="(48) 9 9110-4647" required />
+            </div>
+            <div class="form-row">
+              <label for="subject">Assunto</label>
+              <input id="subject" name="subject" type="text" placeholder="Assunto" required />
+            </div>
+            <div class="form-row">
+              <label for="message">Mensagem</label>
+              <textarea id="message" name="message" rows="5" placeholder="Descreva sua necessidade" required></textarea>
+            </div>
+            <div class="actions">
+              <button type="submit" class="btn btn-primary">Enviar pelo WhatsApp</button>
+              <a id="mailtoFallback" class="btn btn-secondary" href="mailto:sctourfloripa@gmail.com">Enviar por E-mail</a>
+            </div>
+          </form>
+
+          <div class="contact-direct">
+            <h3>Contato Direto</h3>
+            <ul class="contact-list">
+              <li>Telefone: <a href="tel:+5548991104647">(48) 99110-4647</a></li>
+              <li>WhatsApp: <a href="https://wa.me/5548991104647" target="_blank" rel="noopener">Iniciar conversa</a></li>
+              <li>E-mail: <a href="mailto:sctourfloripa@gmail.com">sctourfloripa@gmail.com</a></li>
+              <li>Endereço: R. Santos Saraiva, 840 - SALA 207 BOX 05 - Estreito, Florianópolis - SC, 88070-100</li>
+            </ul>
+          </div>
+        </div>
+        <div>
+          <h2>Localização</h2>
+          <div class="map-wrapper">
+            <iframe title="Mapa - SC Tour" width="100%" height="340" style="border:0;" loading="lazy" allowfullscreen
+              src="https://www.google.com/maps?q=R.%20Santos%20Saraiva%2C%20840%20-%20SALA%20207%20BOX%2005%20-%20Estreito%2C%20Florian%C3%B3polis%20-%20SC%2C%2088070-100&output=embed"></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h3><span>SC</span> Tour</h3>
+        <p>Transporte executivo em Florianópolis e toda Santa Catarina.</p>
+      </div>
+      <div>
+        <h4>Contato</h4>
+        <ul class="contact-list">
+          <li>Telefone/WhatsApp: <a href="https://wa.me/5548991104647" target="_blank" rel="noopener">(48) 99110-4647</a></li>
+          <li>E-mail: <a href="mailto:sctourfloripa@gmail.com">sctourfloripa@gmail.com</a></li>
+          <li>Endereço: R. Santos Saraiva, 840 - SALA 207 BOX 05 - Estreito, Florianópolis - SC, 88070-100</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Links</h4>
+        <ul class="footer-links">
+          <li><a href="servicos.html">Serviços</a></li>
+          <li><a href="frota.html">Frota</a></li>
+          <li><a href="sobre.html">Sobre Nós</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <small>© <span id="year"></span> SC Tour. Todos os direitos reservados.</small>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html> 
