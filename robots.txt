@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.sctour.online/sitemap.xml 
+Sitemap: https://sctour.vercel.app/sitemap.xml 
