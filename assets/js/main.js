@@ -26,11 +26,12 @@ if (contactForm) {
     const subject = formData.get('subject') || 'Orçamento';
     const message = formData.get('message') || '';
 
-    const text = `Olá, sou ${name}.%0A` +
-                 `Assunto: ${subject}.%0A` +
-                 `Telefone: ${phone}.%0A` +
-                 `E-mail: ${email}.%0A%0A` +
-                 `Mensagem:%0A${encodeURIComponent(String(message))}`;
+    const enc = (v) => encodeURIComponent(String(v));
+    const text = `Olá, sou ${enc(name)}.%0A` +
+                 `Assunto: ${enc(subject)}.%0A` +
+                 `Telefone: ${enc(phone)}.%0A` +
+                 `E-mail: ${enc(email)}.%0A%0A` +
+                 `Mensagem:%0A${enc(message)}`;
     const waUrl = `https://wa.me/5548991104647?text=${text}`;
 
     // Try open WhatsApp
