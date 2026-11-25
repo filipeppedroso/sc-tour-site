@@ -3,7 +3,7 @@
 Marketing site for SC Tour, an executive transport and airport transfer company in
 Florianópolis, Brazil. Static HTML, CSS and vanilla JavaScript, deployed on Vercel.
 
-**Live site:** https://sctour.vercel.app
+**Live site:** https://sctourfloripa.com.br
 
 ## Why it is built this way
 
